@@ -6,21 +6,22 @@ import java.util.StringTokenizer;
 
 public class TestCaseNumber_7 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int count = Integer.parseInt(br.readLine());
+        int count = Integer.parseInt(in.readLine());
 
         for (int i=1; i<=count; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            StringTokenizer st = new StringTokenizer(in.readLine(), " ");
             int num1 = Integer.parseInt(st.nextToken());
             int num2 = Integer.parseInt(st.nextToken());
 
-            bw.write("Case #" + i + (num1+num2));
+            out.write("Case #" + i + (num1+num2));
+            out.newLine();
         }
 
-        bw.flush();
-        bw.close();
-        br.close();
+        out.flush();
+        out.close();
+        out.close();
     }
 }
