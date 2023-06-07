@@ -4,6 +4,7 @@ import java.io.*;
 
 public class DrawStarReverse_10 {
     public static void main(String[] args) throws IOException {
+        //오류남
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
 
