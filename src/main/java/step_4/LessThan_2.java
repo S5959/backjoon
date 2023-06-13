@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 
 public class LessThan_2 {
     public static void main(String[] args) throws IOException {
+        // 오류나는 코드....고쳐야함
         // X보다 작은 수
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
