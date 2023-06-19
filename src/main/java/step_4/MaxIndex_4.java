@@ -1,5 +1,11 @@
-public void MaxIndex {
-    public static void main(String[] args) {
+package step_4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class MaxIndex_4 {
+    public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         
         int max = 0;
