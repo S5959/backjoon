@@ -7,6 +7,8 @@ import java.util.StringTokenizer;
 
 public class PutBall_5 {
     public static void main(String[] args) throws IOException {
+        // 공 넣기
+        // 에러가 나면 무조건 요소 반환
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         
         StringTokenizer tokenizer = new StringTokenizer(in.readLine(), " ");
@@ -31,7 +33,7 @@ public class PutBall_5 {
                 end = temp;
             }
             
-            
+
         }
 
         System.out.println(max);
